@@ -137,3 +137,37 @@ hr{
     
 
   }
+
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+
+    }
+  }
+
+  .row_on{
+    animation-name: slideInLeft;
+    animation-duration: 3s;
+    animation-delay: 0;
+  }
+
+  @keyframes slideInRight{
+    from{
+        transform: translateX(300px);
+    }
+
+    to{
+        transform: translateX(0);
+
+    }
+  }
+
+  .row2{
+    animation-name: slideInRight;
+    animation-duration: 3s;
+    animation-delay: 0;
+  }
